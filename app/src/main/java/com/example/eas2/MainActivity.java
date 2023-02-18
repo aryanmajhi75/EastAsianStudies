@@ -25,9 +25,19 @@ public class MainActivity extends AppCompatActivity {
         i1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent it = new Intent(MainActivity.this, Landing.class);
+                Intent it = new Intent(MainActivity.this, ChinaActivity.class);
                 startActivity(it);
             }
         });
+
+        i2 = (ImageView) findViewById(R.id.image2);
+        i2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it = new Intent(MainActivity.this, JapanActivity.class);
+                startActivity(it);
+            }
+        });;
     }
+
 }
