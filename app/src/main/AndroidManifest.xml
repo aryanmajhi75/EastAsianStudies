@@ -9,31 +9,55 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.EAS2"
+        android:theme="@style/Theme.EastAsiaStudiesApplication"
         tools:targetApi="31">
         <activity
-            android:name=".JapanActivity"
+            android:name=".FundAgencies"
             android:exported="false" />
         <activity
-            android:name=".ChinaActivity"
+            android:name=".Universities"
             android:exported="false" />
         <activity
-            android:name=".Splash"
+            android:name=".Internships"
+            android:exported="false" />
+        <activity
+            android:name=".FinancialAid"
+            android:exported="false" />
+        <activity
+            android:name=".Conferences"
+            android:exported="false" />
+        <activity
+            android:name=".Exchanges"
+            android:exported="false" />
+        <activity
+            android:name=".Scholarship"
+            android:exported="false" />
+        <activity
+            android:name=".Fellowship"
+            android:exported="false" />
+        <activity
+            android:name=".Education"
+            android:exported="false" />
+        <activity
+            android:name=".CountryHome"
+            android:exported="false" />
+        <activity
+            android:name=".ChinaMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            />
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="true">
 
-        <meta-data
-            android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
+        </activity>
     </application>
 
 </manifest>
