@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">EastAsiaStudiesApplication</string>
+    <string name="app_name">East Asian Studies</string>
     <string name="navigationDrawerOpen">Open navigation Drawer</string>
     <string name="navigationDrawerClose">Close navigation Drawer</string>
 </resources>

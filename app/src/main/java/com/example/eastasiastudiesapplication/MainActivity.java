@@ -21,10 +21,9 @@ public class MainActivity extends AppCompatActivity {
         cv1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent it = new Intent(MainActivity.this, ChinaMainActivity.class);
+                Intent it = new Intent(MainActivity.this, ChinaMain.class);
+                it.putExtra("country", "China");
                 startActivity(it);
-
-//                getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new testfragment()).commit();
             }
         });
 
@@ -32,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
         cv2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent it = new Intent(MainActivity.this, JapanMain.class);
+                startActivity(it);
             }
         });
 
@@ -40,7 +40,8 @@ public class MainActivity extends AppCompatActivity {
         cv3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent it = new Intent(MainActivity.this, KoreaMain.class);
+                startActivity(it);
             }
         });
 
@@ -48,7 +49,8 @@ public class MainActivity extends AppCompatActivity {
         cv4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent it = new Intent(MainActivity.this, SouthEastAsianMain.class);
+                startActivity(it);
             }
         });
 
@@ -56,7 +58,8 @@ public class MainActivity extends AppCompatActivity {
         cv5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent it = new Intent(MainActivity.this, SouthEastAsianMain.class);
+                startActivity(it);
             }
         });
 

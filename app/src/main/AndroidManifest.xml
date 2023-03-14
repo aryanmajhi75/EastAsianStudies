@@ -12,6 +12,21 @@
         android:theme="@style/Theme.EastAsiaStudiesApplication"
         tools:targetApi="31">
         <activity
+            android:name=".IndoPacificMain"
+            android:exported="false" />
+        <activity
+            android:name=".SouthEastAsianMain"
+            android:exported="false" />
+        <activity
+            android:name=".KoreaMain"
+            android:exported="false" />
+        <activity
+            android:name=".test"
+            android:exported="false" />
+        <activity
+            android:name=".JapanMain"
+            android:exported="false" />
+        <activity
             android:name=".FundAgencies"
             android:exported="false" />
         <activity
@@ -42,7 +57,7 @@
             android:name=".CountryHome"
             android:exported="false" />
         <activity
-            android:name=".ChinaMainActivity"
+            android:name=".ChinaMain"
             android:exported="false" />
         <activity
             android:name=".SplashScreen"
@@ -55,9 +70,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
