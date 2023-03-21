@@ -38,7 +38,7 @@ public class KoreaMain extends AppCompatActivity implements NavigationView.OnNav
         setSupportActionBar(toolbar);
 
         MyViewModel myViewModel = new ViewModelProvider(this).get(MyViewModel.class);
-        myViewModel.setData("Welcome to Korea");
+        myViewModel.setData("Korea");
 
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.navigationDrawerOpen, R.string.navigationDrawerClose);
@@ -74,9 +74,6 @@ public class KoreaMain extends AppCompatActivity implements NavigationView.OnNav
             case R.id.nav_education:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new Education()).commit();
                 break;
-            case R.id.nav_fellowship:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer,new Fellowship()).commit();
-                break;
             case R.id.nav_scholarship:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new Scholarship()).commit();
                 break;
@@ -86,17 +83,8 @@ public class KoreaMain extends AppCompatActivity implements NavigationView.OnNav
             case R.id.nav_conferences:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new Conferences()).commit();
                 break;
-            case R.id.nav_finAid:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new FinancialAid()).commit();
-                break;
             case R.id.nav_internships:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new Internships()).commit();
-                break;
-            case R.id.nav_univ_college:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new Universities()).commit();
-                break;
-            case R.id.nav_fundAgencies:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new FundAgencies()).commit();
                 break;
         }
 

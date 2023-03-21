@@ -24,7 +24,7 @@
             app:expandedTitleTextAppearance="@style/Theme.EastAsiaStudiesApplication"
             app:collapsedTitleTextAppearance="@style/Theme.EastAsiaStudiesApplication"
             android:background="@drawable/background"
-            android:id="@+id/collapsing_toolbar">
+            android:id="@+id/collapsing_toolbar_exchanges">
 
             <ImageView
                 android:layout_width="256dp"
@@ -63,6 +63,7 @@
             android:padding="30dp">
 
             <TextView
+                android:id="@+id/textViewExchanges"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="Exchanges details"

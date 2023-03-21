@@ -20,11 +20,10 @@
             android:fitsSystemWindows="true"
             app:contentScrim="@drawable/background"
             app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
-            app:title="JAPAN"
             app:expandedTitleTextAppearance="@style/Theme.EastAsiaStudiesApplication"
             app:collapsedTitleTextAppearance="@style/Theme.EastAsiaStudiesApplication"
             android:background="@drawable/background"
-            android:id="@+id/collapsing_toolbar">
+            android:id="@+id/collapsing_toolbar_countryhome">
 
             <ImageView
                 android:layout_width="256dp"
@@ -63,10 +62,9 @@
             android:padding="30dp">
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/textViewCountryHome"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Country home details"
                 android:textColor="@color/black"
                 android:textSize="16dp"/>
 

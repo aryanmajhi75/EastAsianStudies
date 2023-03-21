@@ -14,4 +14,17 @@ public class MyViewModel extends ViewModel {
     public LiveData<String> getData() {
         return myData;
     }
+
+    public void setMyData(String data) {
+        myData.setValue(data);
+    }
+
+    public LiveData<String> getMyData() {
+        return myData;
+    }
+
+
+
+
 }
+
