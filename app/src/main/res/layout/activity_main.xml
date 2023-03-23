@@ -176,7 +176,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="110sp"
                         android:padding="25dp"
-                        android:text="South East Asian"
+                        android:text="South East Asia"
                         android:textColor="@color/white"
                         android:textSize="27sp"
                         android:textStyle="bold" />
@@ -201,15 +201,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:layout_margin="20dp"
-                    android:background="@drawable/asean">
+                    android:background="@drawable/indopacific">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="110sp"
+                        android:layout_marginLeft="90sp"
                         android:padding="25dp"
                         android:text="Indo Pacific"
-                        android:textColor="@color/white"
+                        android:textColor="@color/black"
                         android:textSize="27sp"
                         android:textStyle="bold" />
                 </RelativeLayout>

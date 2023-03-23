@@ -56,34 +56,189 @@
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <RelativeLayout
+
+            android:id="@+id/RL1_education"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:padding="30dp">
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewEducation1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/RL1_education"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                tools:ignore="NotSibling" />
 
             <TextView
                 android:id="@+id/textViewEducation"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Education details"
+                android:layout_below="@id/RL1_education"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
                 android:textColor="@color/black"
-                android:textSize="16dp"/>
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewEducationH1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducation"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewEducationL1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewEducationH2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL1"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewEducationL2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH2"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewEducationH3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL2"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
 
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:id="@+id/textViewEducationH4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL3"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH4"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewEducationH5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationL4"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewEducationL5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewEducationH5"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+
+        </RelativeLayout>
 
     </androidx.core.widget.NestedScrollView>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/phd_education"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="#F1C68C"
         android:baselineAlignBottom="false"
         android:clickable="true"
-        android:src="@drawable/baseline_email_24"
+        app:maxImageSize="36dp"
+        android:src="@drawable/phd"
         app:fabSize="normal"
         app:layout_anchor="@id/appbar"
-        app:layout_anchorGravity="end|bottom"
-        android:layout_marginRight="16dp"
-        android:backgroundTint="#F1C68C"/>
+        app:layout_anchorGravity="end|bottom" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/pg_education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="96dp"
+        android:backgroundTint="#F1C68C"
+        app:maxImageSize="28dp"
+        android:baselineAlignBottom="false"
+        android:clickable="true"
+        android:src="@drawable/pg"
+        app:fabSize="normal"
+        app:layout_anchor="@id/appbar"
+        app:layout_anchorGravity="end|bottom" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/ug_education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="176dp"
+        android:backgroundTint="#F1C68C"
+        app:maxImageSize="28dp"
+        android:baselineAlignBottom="false"
+        android:clickable="true"
+        android:src="@drawable/ug"
+        app:fabSize="normal"
+        app:layout_anchor="@id/appbar"
+        app:layout_anchorGravity="end|bottom" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

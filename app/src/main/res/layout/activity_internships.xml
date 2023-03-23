@@ -57,34 +57,188 @@
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <RelativeLayout
+            android:id="@+id/RL1_internship"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:padding="30dp">
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewInternship1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/RL1_internship"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                tools:ignore="NotSibling" />
 
             <TextView
                 android:id="@+id/textViewInternship"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Details about internships opportunities"
+                android:layout_below="@id/RL1_internship"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
                 android:textColor="@color/black"
-                android:textSize="16dp"/>
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewInternshipH1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternship"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewInternshipL1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewInternshipH2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL1"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewInternshipL2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH2"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewInternshipH3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL2"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
 
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:id="@+id/textViewInternshipH4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL3"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH4"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewInternshipH5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipL4"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewInternshipL5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewInternshipH5"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+
+        </RelativeLayout>
 
     </androidx.core.widget.NestedScrollView>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/phd_internship"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="#F1C68C"
         android:baselineAlignBottom="false"
         android:clickable="true"
-        android:src="@drawable/baseline_email_24"
+        app:maxImageSize="36dp"
+        android:src="@drawable/phd"
         app:fabSize="normal"
         app:layout_anchor="@id/appbar"
-        app:layout_anchorGravity="end|bottom"
-        android:layout_marginRight="16dp"
-        android:backgroundTint="#F1C68C"/>
+        app:layout_anchorGravity="end|bottom" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/pg_internship"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="96dp"
+        android:backgroundTint="#F1C68C"
+        app:maxImageSize="28dp"
+        android:baselineAlignBottom="false"
+        android:clickable="true"
+        android:src="@drawable/pg"
+        app:fabSize="normal"
+        app:layout_anchor="@id/appbar"
+        app:layout_anchorGravity="end|bottom" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/ug_internship"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="176dp"
+        android:backgroundTint="#F1C68C"
+        app:maxImageSize="28dp"
+        android:baselineAlignBottom="false"
+        android:clickable="true"
+        android:src="@drawable/ug"
+        app:fabSize="normal"
+        app:layout_anchor="@id/appbar"
+        app:layout_anchorGravity="end|bottom" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

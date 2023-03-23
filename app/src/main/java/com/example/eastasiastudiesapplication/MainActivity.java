@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         cv5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent it = new Intent(MainActivity.this, SouthEastAsianMain.class);
+                Intent it = new Intent(MainActivity.this, IndoPacificMain.class);
                 startActivity(it);
             }
         });

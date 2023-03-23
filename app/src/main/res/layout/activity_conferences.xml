@@ -15,16 +15,16 @@
         android:theme="@style/Theme.EastAsiaStudiesApplication">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar_conference"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:fitsSystemWindows="true"
-            app:contentScrim="@drawable/background"
-            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
-            app:title="Conferences"
-            app:expandedTitleTextAppearance="@style/Theme.EastAsiaStudiesApplication"
-            app:collapsedTitleTextAppearance="@style/Theme.EastAsiaStudiesApplication"
             android:background="@drawable/background"
-            android:id="@+id/collapsing_toolbar_conference">
+            android:fitsSystemWindows="true"
+            app:collapsedTitleTextAppearance="@style/Theme.EastAsiaStudiesApplication"
+            app:contentScrim="@drawable/background"
+            app:expandedTitleTextAppearance="@style/Theme.EastAsiaStudiesApplication"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            app:title="Conferences">
 
             <ImageView
                 android:layout_width="256dp"
@@ -35,14 +35,13 @@
                 android:layout_marginBottom="30dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/conference1"
-                app:layout_collapseMode="parallax"/>
+                app:layout_collapseMode="parallax" />
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                app:layout_collapseMode="pin"/>
-
+                app:layout_collapseMode="pin" />
 
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>
@@ -56,35 +55,196 @@
         android:background="@drawable/bg_shape"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
-
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <!---->
+        <!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:padding="30dp">-->
+        <RelativeLayout
+            android:id="@+id/RL1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:padding="30dp">
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewConference1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/RL1"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                tools:ignore="NotSibling" />
 
             <TextView
                 android:id="@+id/textViewConference"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Conferences details"
+                android:layout_below="@id/RL1"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:layout_marginLeft="25dp"
                 android:textColor="@color/black"
-                android:textSize="16dp"/>
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewConferenceH1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewConference"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewConferenceL1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewConferenceH1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewConferenceH2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewConferenceL1"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewConferenceL2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewConferenceH2"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewConferenceH3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewConferenceL2"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewConferenceL3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewConferenceH3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
 
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:id="@+id/textViewConferenceH4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewConferenceL3"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewConferenceL4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewConferenceH4"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:id="@+id/textViewConferenceH5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewConferenceL4"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/textViewConferenceL5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/textViewConferenceH5"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                tools:ignore="NotSibling" />
+
+        </RelativeLayout>
+
+
+        <!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
 
     </androidx.core.widget.NestedScrollView>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/phd_conference"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="#F1C68C"
         android:baselineAlignBottom="false"
         android:clickable="true"
-        android:src="@drawable/baseline_email_24"
+        app:maxImageSize="36dp"
+        android:src="@drawable/phd"
         app:fabSize="normal"
         app:layout_anchor="@id/appbar"
-        app:layout_anchorGravity="end|bottom"
-        android:layout_marginRight="16dp"
-        android:backgroundTint="#F1C68C"/>
+        app:layout_anchorGravity="end|bottom" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/pg_conference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="96dp"
+        android:backgroundTint="#F1C68C"
+        app:maxImageSize="28dp"
+        android:baselineAlignBottom="false"
+        android:clickable="true"
+        android:src="@drawable/pg"
+        app:fabSize="normal"
+        app:layout_anchor="@id/appbar"
+        app:layout_anchorGravity="end|bottom" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/ug_conference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="176dp"
+        android:backgroundTint="#F1C68C"
+        app:maxImageSize="28dp"
+        android:baselineAlignBottom="false"
+        android:clickable="true"
+        android:src="@drawable/ug"
+        app:fabSize="normal"
+        app:layout_anchor="@id/appbar"
+        app:layout_anchorGravity="end|bottom" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
