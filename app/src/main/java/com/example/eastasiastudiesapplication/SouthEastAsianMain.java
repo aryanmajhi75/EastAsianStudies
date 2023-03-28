@@ -85,6 +85,9 @@ public class SouthEastAsianMain extends AppCompatActivity implements NavigationV
             case R.id.nav_internships:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new Internships()).commit();
                 break;
+            case R.id.nav_about:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new About()).commit();
+                break;
         }
 
         //closes the drawer, when an item is selected

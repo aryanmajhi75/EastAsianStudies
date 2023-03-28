@@ -26,6 +26,10 @@
             android:id="@+id/nav_internships"
             android:icon="@drawable/employee"
             android:title="Internships" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/contact"
+            android:title="About us" />
     </group>
 
 </menu>

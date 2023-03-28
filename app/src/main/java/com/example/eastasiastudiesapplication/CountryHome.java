@@ -1,5 +1,8 @@
 package com.example.eastasiastudiesapplication;
 
+import android.content.ActivityNotFoundException;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -18,6 +21,7 @@ import androidx.lifecycle.ViewModelProvider;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -28,6 +32,7 @@ public class CountryHome extends Fragment {
     private DatabaseReference countryRef,countryRef1,cCountryRef;
     TextView t1;
     CollapsingToolbarLayout ctl;
+    FloatingActionButton i1;
     static String country,name1,home1;
     public boolean firstVisit;
     private MyViewModel myViewModel;
@@ -189,6 +194,24 @@ public class CountryHome extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         t1 = getActivity().findViewById(R.id.textViewCountryHome);
         ctl = getActivity().findViewById(R.id.collapsing_toolbar_countryhome);
+        i1 = getActivity().findViewById(R.id.mailhome);
+
+        i1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("mailto:" + "eastasian.studies@christuniversity.in"));
+                try
+                {
+                    startActivity(intent);
+                }
+                catch(ActivityNotFoundException e)
+                {
+                    //handle error
+                }
+
+            }
+
+        });
 
     }
 

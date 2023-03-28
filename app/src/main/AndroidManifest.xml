@@ -14,6 +14,9 @@
         android:theme="@style/Theme.EastAsiaStudiesApplication"
         tools:targetApi="31">
         <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
             android:name=".IndoPacificMain"
             android:exported="false" />
         <activity
