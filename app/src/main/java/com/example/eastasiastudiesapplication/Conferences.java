@@ -373,89 +373,91 @@ public class Conferences extends Fragment {
                             h4.setText("⚫ "+data5);
                             l4.setText(snapshot.child("link4").getValue().toString());
 
+
+
                             String data6 = snapshot.child("head5").getValue().toString();
                             h5.setText("⚫ "+data6);
                             l5.setText(snapshot.child("link5").getValue().toString());
 
-                            String data7 = snapshot.child("head6").getValue().toString();
-                            h6.setText("⚫ "+data7);
-                            l6.setText(snapshot.child("link6").getValue().toString());
-
-                            String data8 = snapshot.child("head7").getValue().toString();
-                            h7.setText("⚫ "+data8);
-                            l7.setText(snapshot.child("link6").getValue().toString());
-
-                            String data9 = snapshot.child("head8").getValue().toString();
-                            h8.setText("⚫ "+data9);
-                            l8.setText(snapshot.child("link8").getValue().toString());
-
-                            String data10 = snapshot.child("head9").getValue().toString();
-                            h9.setText("⚫ "+data10);
-                            l9.setText(snapshot.child("link9").getValue().toString());
-
-                            String data11 = snapshot.child("head10").getValue().toString();
-                            h10.setText("⚫ "+data11);
-                            l10.setText(snapshot.child("link10").getValue().toString());
-
-                            String data12 = snapshot.child("head11").getValue().toString();
-                            h11.setText("⚫ "+data12);
-                            l11.setText(snapshot.child("link11").getValue().toString());
-
-                            String data13 = snapshot.child("head12").getValue().toString();
-                            h12.setText("⚫ "+data13);
-                            l12.setText(snapshot.child("link12").getValue().toString());
-
-                            String data14 = snapshot.child("head13").getValue().toString();
-                            h13.setText("⚫ "+data14);
-                            l13.setText(snapshot.child("link13").getValue().toString());
-
-                            String data15 = snapshot.child("head14").getValue().toString();
-                            h14.setText("⚫ "+data15);
-                            l14.setText(snapshot.child("link14").getValue().toString());
-
-                            String data16 = snapshot.child("head15").getValue().toString();
-                            h15.setText("⚫ "+data16);
-                            l15.setText(snapshot.child("link15").getValue().toString());
-
-                            String data17 = snapshot.child("head16").getValue().toString();
-                            h16.setText("⚫ "+data17);
-                            l16.setText(snapshot.child("link16").getValue().toString());
-
-                            String data18 = snapshot.child("head17").getValue().toString();
-                            h17.setText("⚫ "+data18);
-                            l17.setText(snapshot.child("link17").getValue().toString());
-
-                            String data19 = snapshot.child("head18").getValue().toString();
-                            h18.setText("⚫ "+data19);
-                            l18.setText(snapshot.child("link18").getValue().toString());
-
-                            String data20 = snapshot.child("head19").getValue().toString();
-                            h19.setText("⚫ "+data20);
-                            l19.setText(snapshot.child("link19").getValue().toString());
-
-                            String data21 = snapshot.child("head20").getValue().toString();
-                            h20.setText("⚫ "+data21);
-                            l20.setText(snapshot.child("link20").getValue().toString());
-
-                            String data22 = snapshot.child("head21").getValue().toString();
-                            h21.setText("⚫ "+data22);
-                            l21.setText(snapshot.child("link21").getValue().toString());
-
-                            String data23 = snapshot.child("head22").getValue().toString();
-                            h22.setText("⚫ "+data23);
-                            l22.setText(snapshot.child("link22").getValue().toString());
-
-                            String data24 = snapshot.child("head23").getValue().toString();
-                            h23.setText("⚫ "+data24);
-                            l23.setText(snapshot.child("link23").getValue().toString());
-
-                            String data25 = snapshot.child("head24").getValue().toString();
-                            h24.setText("⚫ "+data25);
-                            l24.setText(snapshot.child("link24").getValue().toString());
-
-                            String data26 = snapshot.child("head25").getValue().toString();
-                            h25.setText("⚫ "+data26);
-                            l25.setText(snapshot.child("link25").getValue().toString());
+//                            String data7 = snapshot.child("head6").getValue().toString();
+//                            h6.setText("⚫ "+data7);
+//                            l6.setText(snapshot.child("link6").getValue().toString());
+//
+//                            String data8 = snapshot.child("head7").getValue().toString();
+//                            h7.setText("⚫ "+data8);
+//                            l7.setText(snapshot.child("link6").getValue().toString());
+//
+//                            String data9 = snapshot.child("head8").getValue().toString();
+//                            h8.setText("⚫ "+data9);
+//                            l8.setText(snapshot.child("link8").getValue().toString());
+//
+//                            String data10 = snapshot.child("head9").getValue().toString();
+//                            h9.setText("⚫ "+data10);
+//                            l9.setText(snapshot.child("link9").getValue().toString());
+//
+//                            String data11 = snapshot.child("head10").getValue().toString();
+//                            h10.setText("⚫ "+data11);
+//                            l10.setText(snapshot.child("link10").getValue().toString());
+//
+//                            String data12 = snapshot.child("head11").getValue().toString();
+//                            h11.setText("⚫ "+data12);
+//                            l11.setText(snapshot.child("link11").getValue().toString());
+//
+//                            String data13 = snapshot.child("head12").getValue().toString();
+//                            h12.setText("⚫ "+data13);
+//                            l12.setText(snapshot.child("link12").getValue().toString());
+//
+//                            String data14 = snapshot.child("head13").getValue().toString();
+//                            h13.setText("⚫ "+data14);
+//                            l13.setText(snapshot.child("link13").getValue().toString());
+//
+//                            String data15 = snapshot.child("head14").getValue().toString();
+//                            h14.setText("⚫ "+data15);
+//                            l14.setText(snapshot.child("link14").getValue().toString());
+//
+//                            String data16 = snapshot.child("head15").getValue().toString();
+//                            h15.setText("⚫ "+data16);
+//                            l15.setText(snapshot.child("link15").getValue().toString());
+//
+//                            String data17 = snapshot.child("head16").getValue().toString();
+//                            h16.setText("⚫ "+data17);
+//                            l16.setText(snapshot.child("link16").getValue().toString());
+//
+//                            String data18 = snapshot.child("head17").getValue().toString();
+//                            h17.setText("⚫ "+data18);
+//                            l17.setText(snapshot.child("link17").getValue().toString());
+//
+//                            String data19 = snapshot.child("head18").getValue().toString();
+//                            h18.setText("⚫ "+data19);
+//                            l18.setText(snapshot.child("link18").getValue().toString());
+//
+//                            String data20 = snapshot.child("head19").getValue().toString();
+//                            h19.setText("⚫ "+data20);
+//                            l19.setText(snapshot.child("link19").getValue().toString());
+//
+//                            String data21 = snapshot.child("head20").getValue().toString();
+//                            h20.setText("⚫ "+data21);
+//                            l20.setText(snapshot.child("link20").getValue().toString());
+//
+//                            String data22 = snapshot.child("head21").getValue().toString();
+//                            h21.setText("⚫ "+data22);
+//                            l21.setText(snapshot.child("link21").getValue().toString());
+//
+//                            String data23 = snapshot.child("head22").getValue().toString();
+//                            h22.setText("⚫ "+data23);
+//                            l22.setText(snapshot.child("link22").getValue().toString());
+//
+//                            String data24 = snapshot.child("head23").getValue().toString();
+//                            h23.setText("⚫ "+data24);
+//                            l23.setText(snapshot.child("link23").getValue().toString());
+//
+//                            String data25 = snapshot.child("head24").getValue().toString();
+//                            h24.setText("⚫ "+data25);
+//                            l24.setText(snapshot.child("link24").getValue().toString());
+//
+//                            String data26 = snapshot.child("head25").getValue().toString();
+//                            h25.setText("⚫ "+data26);
+//                            l25.setText(snapshot.child("link25").getValue().toString());
                         }
                     }
 
