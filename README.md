@@ -63,6 +63,7 @@ This project is used by the following companies:
 ## Screenshots
 
 Splash Screen
+
 ![Splash Screen](https://github.com/riyash0109/EastAsianStudies/blob/main/splashScreen.jpeg)
 
 ![Home Screen](https://github.com/riyash0109/EastAsianStudies/blob/main/homeScreen.jpeg)
