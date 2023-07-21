@@ -70,7 +70,7 @@ Home Screen
 
 ![Home Screen](https://github.com/riyash0109/EastAsianStudies/blob/main/homeScreen.jpeg)
 
-Navigation Screen
+Navigation Drawer
 
 ![Navigation Drawer](https://github.com/riyash0109/EastAsianStudies/blob/main/navigation.png)
 
