@@ -60,7 +60,9 @@
             android:exported="false" />
         <activity
             android:name=".ChinaMain"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.EastAsiaStudiesApplication.NoActionBar"
+            />
         <activity
             android:name=".SplashScreen"
             android:exported="true">

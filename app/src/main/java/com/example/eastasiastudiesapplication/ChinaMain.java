@@ -35,6 +35,7 @@ public class ChinaMain extends AppCompatActivity implements NavigationView.OnNav
         navigationView = findViewById(R.id.nav_view);
         toolbar = findViewById(R.id.toolbar);
 
+//        getSupportActionBar().hide();
         setSupportActionBar(toolbar);
 
         MyViewModel myViewModel = new ViewModelProvider(this).get(MyViewModel.class);
