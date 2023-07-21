@@ -66,11 +66,19 @@ Splash Screen
 
 ![Splash Screen](https://github.com/riyash0109/EastAsianStudies/blob/main/splashScreen.jpeg)
 
+Home Screen
+
 ![Home Screen](https://github.com/riyash0109/EastAsianStudies/blob/main/homeScreen.jpeg)
+
+Navigation Screen
 
 ![Navigation Drawer](https://github.com/riyash0109/EastAsianStudies/blob/main/navigation.png)
 
+Education Screen
+
 ![Education Screen](https://github.com/riyash0109/EastAsianStudies/blob/main/educationScreen.jpeg)
+
+Scholarship Screen
 
 ![Scholarship Screen](https://github.com/riyash0109/EastAsianStudies/blob/main/scholarShips.jpeg)
 
