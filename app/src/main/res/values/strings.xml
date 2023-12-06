@@ -3,4 +3,18 @@
     <string name="navigationDrawerOpen">Open navigation Drawer</string>
     <string name="navigationDrawerClose">Close navigation Drawer</string>
     <string name="aboutus">Taking note of the importance of the East Asian region to both Indian and global policy formulations, the ‘Centre for East Asian Studies’ is dedicated to enhance the understanding of the region in the country and beyond. The scope of East Asia is the entire continental and maritime geographical region east of India. The Centre’s pursuit of excellence in the East Asian region will be in consonance with India’s ‘Look/Act East Policy’. The forte of the Centre lies in looking at the East Asian region from an Indian perspective with a special emphasis on South India. This perspective is considered vital because of the fact that countries of the region are keen to connect with and know more about the southern states of India. Each of the Indian states is also keen to connect with the outside world, especially the eastern part of the globe, for various politico-economic and socio-cultural reasons. The Centre, therefore, has a special focus on Federal units’ reach to the East Asian region and vice versa. In doing so, at the same time, the national perspective will not be lost.</string>
+    <string name="ChinaHome">China Home</string>
+    <string name="contentDescription">Some Content</string>
+    <string name="JapanHome">Japan Home</string>
+    <string name="home">Home</string>
+    <string name="higher_education">Higher Education</string>
+    <string name="fellowship_scholarship">Fellowship/Scholarship</string>
+    <string name="exchanges">Exchanges</string>
+    <string name="conferences">Conferences</string>
+    <string name="internships">Internships</string>
+    <string name="about_us">About us</string>
+    <string name="fellowship">FellowShip</string>
+    <string name="financial_aid">Financial Aid</string>
+    <string name="university">University</string>
+    <string name="fund_agencies">Fund Agencies</string>
 </resources>

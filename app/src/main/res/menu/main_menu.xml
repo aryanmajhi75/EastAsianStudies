@@ -5,31 +5,48 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/baseline_home_24"
-            android:title="Home" />
+            android:title="@string/home" />
         <item
             android:id="@+id/nav_education"
             android:icon="@drawable/mortarboard"
-            android:title="Higher Education" />
+            android:title="@string/higher_education" />
         <item
             android:id="@+id/nav_scholarship"
             android:icon="@drawable/scholarship"
-            android:title="Fellowship/Scholarship" />
+            android:title="@string/fellowship_scholarship" />
         <item
             android:id="@+id/nav_exchanges"
             android:icon="@drawable/exchange"
-            android:title="Exchanges" />
+            android:title="@string/exchanges" />
         <item
             android:id="@+id/nav_conferences"
             android:icon="@drawable/conference"
-            android:title="Conferences" />
+            android:title="@string/conferences" />
         <item
             android:id="@+id/nav_internships"
             android:icon="@drawable/employee"
-            android:title="Internships" />
+            android:title="@string/internships" />
         <item
             android:id="@+id/nav_about"
             android:icon="@drawable/contact"
-            android:title="About us" />
+            android:title="@string/about_us" />
+        <item
+            android:id="@+id/nav_fellowship"
+            android:icon="@drawable/baseline_groups_24"
+            android:title="@string/fellowship" />
+        <item
+            android:id="@+id/nav_finAid"
+            android:icon="@drawable/baseline_money_24"
+            android:title="@string/financial_aid" />
+        <item
+            android:id="@+id/nav_univ_college"
+            android:icon="@drawable/university"
+            android:title="@string/university" />
+        <item
+            android:id="@+id/nav_fundAgencies"
+            android:icon="@drawable/funds1"
+            android:title="@string/fund_agencies" />
+
     </group>
 
 </menu>
