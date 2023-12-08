@@ -30,11 +30,12 @@
                 android:layout_width="206dp"
                 android:layout_height="152dp"
                 android:layout_gravity="center|end"
-                android:layout_marginRight="100dp"
+                android:layout_marginEnd="100dp"
                 android:layout_marginBottom="30dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/education1"
-                app:layout_collapseMode="parallax" />
+                app:layout_collapseMode="parallax"
+                android:contentDescription="@string/imageview" />
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
@@ -69,10 +70,10 @@
                 android:layout_below="@id/RL1"
                 android:layout_marginTop="32dp"
                 android:gravity="center"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
                 android:textStyle="bold"
-                android:textSize="22dp"
+                android:textSize="22sp"
                 tools:ignore="NotSibling" />
 
             <TextView
@@ -82,9 +83,9 @@
                 android:layout_below="@id/RL1"
                 android:layout_marginTop="32dp"
                 android:gravity="center"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 tools:ignore="NotSibling" />
 
             <TextView
@@ -93,9 +94,9 @@
                 android:layout_height="match_parent"
                 android:layout_below="@id/textViewEducation"
                 android:layout_marginTop="20dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 tools:ignore="NotSibling" />
 
             <TextView
@@ -103,13 +104,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@id/textViewEducationH1"
+                android:contentDescription="@string/textview"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:autoLink="web"
                 android:textColor="@color/black"
                 android:clickable="true"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
 
             <TextView
                 android:id="@+id/textViewEducationH2"
@@ -117,9 +120,9 @@
                 android:layout_height="match_parent"
                 android:layout_below="@id/textViewEducationL1"
                 android:layout_marginTop="15dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 tools:ignore="NotSibling" />
 
             <TextView
@@ -128,12 +131,14 @@
                 android:layout_height="match_parent"
                 android:clickable="true"
                 android:layout_below="@id/textViewEducationH2"
+                android:contentDescription="@string/textview"
                 android:layout_marginTop="5dp"
                 android:autoLink="web"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
 
             <TextView
                 android:id="@+id/textViewEducationH3"
@@ -141,9 +146,9 @@
                 android:layout_height="match_parent"
                 android:layout_below="@id/textViewEducationL2"
                 android:layout_marginTop="15dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 tools:ignore="NotSibling" />
             <TextView
                 android:id="@+id/textViewEducationL3"
@@ -151,12 +156,14 @@
                 android:layout_height="match_parent"
                 android:clickable="true"
                 android:layout_below="@id/textViewEducationH3"
+                android:contentDescription="@string/textview"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:autoLink="web"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
 
 
             <TextView
@@ -165,9 +172,9 @@
                 android:layout_height="match_parent"
                 android:layout_below="@id/textViewEducationL3"
                 android:layout_marginTop="15dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 tools:ignore="NotSibling" />
             <TextView
                 android:id="@+id/textViewEducationL4"
@@ -175,12 +182,14 @@
                 android:layout_height="match_parent"
                 android:autoLink="web"
                 android:layout_below="@id/textViewEducationH4"
+                android:contentDescription="@string/textview"
                 android:layout_marginTop="5dp"
                 android:clickable="true"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
 
             <TextView
                 android:id="@+id/textViewEducationH5"
@@ -188,34 +197,38 @@
                 android:layout_height="match_parent"
                 android:layout_below="@id/textViewEducationL4"
                 android:layout_marginTop="15dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 tools:ignore="NotSibling" />
             <TextView
                 android:id="@+id/textViewEducationL5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@id/textViewEducationH5"
+                android:contentDescription="@string/textview"
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationH6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@id/textViewEducationL5"
+                android:contentDescription="@string/textview"
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationL6"
                 android:layout_width="match_parent"
@@ -224,10 +237,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationH7"
                 android:layout_width="match_parent"
@@ -236,10 +250,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationL7"
                 android:layout_width="match_parent"
@@ -248,10 +263,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationH8"
                 android:layout_width="match_parent"
@@ -260,10 +276,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationL8"
                 android:layout_width="match_parent"
@@ -272,10 +289,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationH9"
                 android:layout_width="match_parent"
@@ -284,10 +302,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationL9"
                 android:layout_width="match_parent"
@@ -296,10 +315,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationH10"
                 android:layout_width="match_parent"
@@ -308,10 +328,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationL10"
                 android:layout_width="match_parent"
@@ -320,10 +341,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationH11"
                 android:layout_width="match_parent"
@@ -332,10 +354,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationL11"
                 android:layout_width="match_parent"
@@ -344,10 +367,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationH12"
                 android:layout_width="match_parent"
@@ -356,10 +380,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationL12"
                 android:layout_width="match_parent"
@@ -368,10 +393,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationH13"
                 android:layout_width="match_parent"
@@ -380,10 +406,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationL13"
                 android:layout_width="match_parent"
@@ -392,10 +419,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationH14"
                 android:layout_width="match_parent"
@@ -404,10 +432,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationL14"
                 android:layout_width="match_parent"
@@ -416,10 +445,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationH15"
                 android:layout_width="match_parent"
@@ -428,10 +458,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationL15"
                 android:layout_width="match_parent"
@@ -440,10 +471,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationH16"
                 android:layout_width="match_parent"
@@ -452,10 +484,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationL16"
                 android:layout_width="match_parent"
@@ -464,10 +497,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationH17"
                 android:layout_width="match_parent"
@@ -476,10 +510,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationL17"
                 android:layout_width="match_parent"
@@ -488,10 +523,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationH18"
                 android:layout_width="match_parent"
@@ -500,10 +536,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationL18"
                 android:layout_width="match_parent"
@@ -512,10 +549,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationH19"
                 android:layout_width="match_parent"
@@ -524,10 +562,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationL19"
                 android:layout_width="match_parent"
@@ -536,10 +575,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationH20"
                 android:layout_width="match_parent"
@@ -548,10 +588,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationL20"
                 android:layout_width="match_parent"
@@ -560,10 +601,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationH21"
                 android:layout_width="match_parent"
@@ -572,10 +614,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationL21"
                 android:layout_width="match_parent"
@@ -584,10 +627,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationH22"
                 android:layout_width="match_parent"
@@ -596,10 +640,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationL22"
                 android:layout_width="match_parent"
@@ -608,10 +653,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationH23"
                 android:layout_width="match_parent"
@@ -620,10 +666,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationL23"
                 android:layout_width="match_parent"
@@ -632,10 +679,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationH24"
                 android:layout_width="match_parent"
@@ -644,10 +692,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationL24"
                 android:layout_width="match_parent"
@@ -656,10 +705,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationH25"
                 android:layout_width="match_parent"
@@ -668,10 +718,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewEducationL25"
                 android:layout_width="match_parent"
@@ -680,10 +731,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
 
         </RelativeLayout>
 
@@ -693,7 +745,7 @@
         android:id="@+id/phd_education"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
         android:backgroundTint="#F1C68C"
         android:baselineAlignBottom="false"
         android:clickable="true"
@@ -701,13 +753,15 @@
         android:src="@drawable/phd"
         app:fabSize="normal"
         app:layout_anchor="@id/appbar"
-        app:layout_anchorGravity="end|bottom" />
+        app:layout_anchorGravity="end|bottom"
+        android:contentDescription="@string/floating_action_button"
+        android:focusable="true" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/pg_education"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="96dp"
+        android:layout_marginEnd="96dp"
         android:backgroundTint="#F1C68C"
         app:maxImageSize="28dp"
         android:baselineAlignBottom="false"
@@ -715,13 +769,15 @@
         android:src="@drawable/pg"
         app:fabSize="normal"
         app:layout_anchor="@id/appbar"
-        app:layout_anchorGravity="end|bottom" />
+        app:layout_anchorGravity="end|bottom"
+        android:contentDescription="@string/floating_action_button"
+        android:focusable="true" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/ug_education"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="176dp"
+        android:layout_marginEnd="176dp"
         android:backgroundTint="#F1C68C"
         app:maxImageSize="28dp"
         android:baselineAlignBottom="false"
@@ -729,6 +785,8 @@
         android:src="@drawable/ug"
         app:fabSize="normal"
         app:layout_anchor="@id/appbar"
-        app:layout_anchorGravity="end|bottom" />
+        app:layout_anchorGravity="end|bottom"
+        android:contentDescription="@string/floating_action_button"
+        android:focusable="true" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

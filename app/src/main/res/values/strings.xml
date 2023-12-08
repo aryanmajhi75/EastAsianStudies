@@ -17,4 +17,7 @@
     <string name="financial_aid">Financial Aid</string>
     <string name="university">University</string>
     <string name="fund_agencies">Fund Agencies</string>
+    <string name="imageview">Imageview</string>
+    <string name="floating_action_button">floating action button</string>
+    <string name="textview">textview</string>
 </resources>

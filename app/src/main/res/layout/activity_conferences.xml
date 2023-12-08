@@ -30,12 +30,13 @@
                 android:layout_width="256dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="30dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/conference1"
-                app:layout_collapseMode="parallax" />
+                app:layout_collapseMode="parallax"
+                android:contentDescription="@string/imageview" />
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
@@ -72,10 +73,10 @@
                 android:layout_below="@id/RL1"
                 android:layout_marginTop="32dp"
                 android:gravity="center"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
                 android:textStyle="bold"
-                android:textSize="22dp"
+                android:textSize="22sp"
                 tools:ignore="NotSibling" />
 
             <TextView
@@ -85,9 +86,9 @@
                 android:layout_below="@id/RL1"
                 android:layout_marginTop="32dp"
                 android:gravity="center"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 tools:ignore="NotSibling" />
 
             <TextView
@@ -96,9 +97,9 @@
                 android:layout_height="match_parent"
                 android:layout_below="@id/textViewConference"
                 android:layout_marginTop="20dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 tools:ignore="NotSibling" />
 
             <TextView
@@ -106,13 +107,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@id/textViewConferenceH1"
+                android:contentDescription="@string/textview"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:autoLink="web"
                 android:textColor="@color/black"
                 android:clickable="true"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
 
             <TextView
                 android:id="@+id/textViewConferenceH2"
@@ -120,23 +123,25 @@
                 android:layout_height="match_parent"
                 android:layout_below="@id/textViewConferenceL1"
                 android:layout_marginTop="15dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 tools:ignore="NotSibling" />
 
             <TextView
                 android:id="@+id/textViewConferenceL2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:contentDescription="@string/textview"
                 android:clickable="true"
                 android:layout_below="@id/textViewConferenceH2"
                 android:layout_marginTop="5dp"
                 android:autoLink="web"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
 
             <TextView
                 android:id="@+id/textViewConferenceH3"
@@ -144,9 +149,9 @@
                 android:layout_height="match_parent"
                 android:layout_below="@id/textViewConferenceL2"
                 android:layout_marginTop="15dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 tools:ignore="NotSibling" />
             <TextView
                 android:id="@+id/textViewConferenceL3"
@@ -154,12 +159,14 @@
                 android:layout_height="match_parent"
                 android:clickable="true"
                 android:layout_below="@id/textViewConferenceH3"
+                android:contentDescription="@string/textview"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:autoLink="web"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
 
 
             <TextView
@@ -168,22 +175,24 @@
                 android:layout_height="match_parent"
                 android:layout_below="@id/textViewConferenceL3"
                 android:layout_marginTop="15dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 tools:ignore="NotSibling" />
             <TextView
                 android:id="@+id/textViewConferenceL4"
+                android:contentDescription="@string/textview"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:autoLink="web"
                 android:layout_below="@id/textViewConferenceH4"
                 android:layout_marginTop="5dp"
                 android:clickable="true"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
 
             <TextView
                 android:id="@+id/textViewConferenceH5"
@@ -191,34 +200,38 @@
                 android:layout_height="match_parent"
                 android:layout_below="@id/textViewConferenceL4"
                 android:layout_marginTop="15dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 tools:ignore="NotSibling" />
             <TextView
                 android:id="@+id/textViewConferenceL5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@id/textViewConferenceH5"
+                android:contentDescription="@string/textview"
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceH6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@id/textViewConferenceL5"
+                android:contentDescription="@string/textview"
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceL6"
                 android:layout_width="match_parent"
@@ -227,10 +240,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceH7"
                 android:layout_width="match_parent"
@@ -239,10 +253,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceL7"
                 android:layout_width="match_parent"
@@ -251,10 +266,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceH8"
                 android:layout_width="match_parent"
@@ -263,10 +279,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceL8"
                 android:layout_width="match_parent"
@@ -275,10 +292,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceH9"
                 android:layout_width="match_parent"
@@ -287,10 +305,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceL9"
                 android:layout_width="match_parent"
@@ -299,10 +318,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceH10"
                 android:layout_width="match_parent"
@@ -311,10 +331,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceL10"
                 android:layout_width="match_parent"
@@ -323,10 +344,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceH11"
                 android:layout_width="match_parent"
@@ -335,10 +357,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceL11"
                 android:layout_width="match_parent"
@@ -347,10 +370,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceH12"
                 android:layout_width="match_parent"
@@ -359,10 +383,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceL12"
                 android:layout_width="match_parent"
@@ -371,10 +396,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceH13"
                 android:layout_width="match_parent"
@@ -383,10 +409,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceL13"
                 android:layout_width="match_parent"
@@ -395,10 +422,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceH14"
                 android:layout_width="match_parent"
@@ -407,10 +435,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceL14"
                 android:layout_width="match_parent"
@@ -419,10 +448,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceH15"
                 android:layout_width="match_parent"
@@ -431,10 +461,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceL15"
                 android:layout_width="match_parent"
@@ -443,10 +474,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceH16"
                 android:layout_width="match_parent"
@@ -455,10 +487,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceL16"
                 android:layout_width="match_parent"
@@ -467,10 +500,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceH17"
                 android:layout_width="match_parent"
@@ -479,10 +513,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceL17"
                 android:layout_width="match_parent"
@@ -491,10 +526,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceH18"
                 android:layout_width="match_parent"
@@ -503,10 +539,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceL18"
                 android:layout_width="match_parent"
@@ -515,10 +552,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceH19"
                 android:layout_width="match_parent"
@@ -527,10 +565,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceL19"
                 android:layout_width="match_parent"
@@ -539,10 +578,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceH20"
                 android:layout_width="match_parent"
@@ -551,10 +591,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceL20"
                 android:layout_width="match_parent"
@@ -563,10 +604,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceH21"
                 android:layout_width="match_parent"
@@ -575,10 +617,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceL21"
                 android:layout_width="match_parent"
@@ -587,10 +630,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceH22"
                 android:layout_width="match_parent"
@@ -599,10 +643,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceL22"
                 android:layout_width="match_parent"
@@ -611,10 +656,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceH23"
                 android:layout_width="match_parent"
@@ -623,10 +669,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceL23"
                 android:layout_width="match_parent"
@@ -635,10 +682,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceH24"
                 android:layout_width="match_parent"
@@ -647,10 +695,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceL24"
                 android:layout_width="match_parent"
@@ -659,10 +708,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceH25"
                 android:layout_width="match_parent"
@@ -671,10 +721,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewConferenceL25"
                 android:layout_width="match_parent"
@@ -683,10 +734,11 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
 
         </RelativeLayout>
 
@@ -699,7 +751,7 @@
         android:id="@+id/phd_conference"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
         android:backgroundTint="#F1C68C"
         android:baselineAlignBottom="false"
         android:clickable="true"
@@ -707,13 +759,15 @@
         android:src="@drawable/phd"
         app:fabSize="normal"
         app:layout_anchor="@id/appbar"
-        app:layout_anchorGravity="end|bottom" />
+        app:layout_anchorGravity="end|bottom"
+        android:contentDescription="@string/floating_action_button"
+        android:focusable="true" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/pg_conference"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="96dp"
+        android:layout_marginEnd="96dp"
         android:backgroundTint="#F1C68C"
         app:maxImageSize="28dp"
         android:baselineAlignBottom="false"
@@ -721,13 +775,15 @@
         android:src="@drawable/pg"
         app:fabSize="normal"
         app:layout_anchor="@id/appbar"
-        app:layout_anchorGravity="end|bottom" />
+        app:layout_anchorGravity="end|bottom"
+        android:contentDescription="@string/floating_action_button"
+        android:focusable="true" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/ug_conference"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="176dp"
+        android:layout_marginEnd="176dp"
         android:backgroundTint="#F1C68C"
         app:maxImageSize="28dp"
         android:baselineAlignBottom="false"
@@ -735,6 +791,8 @@
         android:src="@drawable/ug"
         app:fabSize="normal"
         app:layout_anchor="@id/appbar"
-        app:layout_anchorGravity="end|bottom" />
+        app:layout_anchorGravity="end|bottom"
+        android:contentDescription="@string/floating_action_button"
+        android:focusable="true" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
