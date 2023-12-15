@@ -28,4 +28,6 @@
     <string name="indo_pacific">Indo Pacific</string>
     <string name="fellowship_details">Fellowship details</string>
     <string name="details_about_financial_aid">Details about financial aid</string>
+    <string name="details_about_universities">Details about universities</string>
+    <string name="details_of_funding_agencies">Details of funding agencies</string>
 </resources>

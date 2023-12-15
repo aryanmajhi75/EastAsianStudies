@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/studentinternships"
     tools:context=".Internships">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -18,24 +18,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
-            app:contentScrim="@drawable/background"
             app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
             app:title="Internships"
             app:expandedTitleTextAppearance="@style/Theme.EastAsiaStudiesApplication"
             app:collapsedTitleTextAppearance="@style/Theme.EastAsiaStudiesApplication"
-            android:background="@drawable/background"
+            android:background="@drawable/studentinternships"
             android:id="@+id/collapsing_toolbar_internship">
-
-            <ImageView
-                android:layout_width="256dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="30dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/internship2"
-                app:layout_collapseMode="parallax"/>
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
@@ -69,10 +57,10 @@
                 android:layout_below="@id/RL1_internship"
                 android:layout_marginTop="32dp"
                 android:gravity="center"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:textSize="22dp"
+                android:textSize="22sp"
                 tools:ignore="NotSibling" />
 
             <TextView
@@ -104,12 +92,14 @@
                 android:layout_height="match_parent"
                 android:layout_below="@id/textViewInternshipH1"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:autoLink="web"
                 android:textColor="@color/black"
                 android:clickable="true"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:contentDescription="@string/textview"
+                android:focusable="true" />
 
             <TextView
                 android:id="@+id/textViewInternshipH2"
@@ -130,10 +120,12 @@
                 android:layout_below="@id/textViewInternshipH2"
                 android:layout_marginTop="5dp"
                 android:autoLink="web"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                android:contentDescription="@string/textview"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
 
             <TextView
                 android:id="@+id/textViewInternshipH3"
@@ -152,11 +144,13 @@
                 android:clickable="true"
                 android:layout_below="@id/textViewInternshipH3"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:autoLink="web"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                android:contentDescription="@string/textview"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
 
 
             <TextView
@@ -177,10 +171,12 @@
                 android:layout_below="@id/textViewInternshipH4"
                 android:layout_marginTop="5dp"
                 android:clickable="true"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:contentDescription="@string/textview"
+                android:focusable="true" />
 
             <TextView
                 android:id="@+id/textViewInternshipH5"
@@ -200,10 +196,12 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                android:contentDescription="@string/textview"
+                tools:ignore="NotSibling"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewInternshipH6"
                 android:layout_width="match_parent"
@@ -212,10 +210,12 @@
                 android:autoLink="web"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
-                tools:ignore="NotSibling" />
+                android:textSize="18sp"
+                tools:ignore="NotSibling"
+                android:contentDescription="@string/textview"
+                android:focusable="true" />
             <TextView
                 android:id="@+id/textViewInternshipL6"
                 android:layout_width="match_parent"
@@ -693,7 +693,7 @@
         android:id="@+id/phd_internship"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
         android:backgroundTint="#F1C68C"
         android:baselineAlignBottom="false"
         android:clickable="true"
@@ -701,34 +701,40 @@
         android:src="@drawable/phd"
         app:fabSize="normal"
         app:layout_anchor="@id/appbar"
-        app:layout_anchorGravity="end|bottom" />
+        app:layout_anchorGravity="end|bottom"
+        android:contentDescription="@string/floating_action_button"
+        android:focusable="true" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/pg_internship"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="96dp"
+        android:layout_marginEnd="96dp"
         android:backgroundTint="#F1C68C"
         app:maxImageSize="28dp"
         android:baselineAlignBottom="false"
         android:clickable="true"
         android:src="@drawable/pg"
         app:fabSize="normal"
+        android:contentDescription="@string/floating_action_button"
         app:layout_anchor="@id/appbar"
-        app:layout_anchorGravity="end|bottom" />
+        app:layout_anchorGravity="end|bottom"
+        android:focusable="true" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/ug_internship"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="176dp"
+        android:layout_marginEnd="176dp"
         android:backgroundTint="#F1C68C"
         app:maxImageSize="28dp"
         android:baselineAlignBottom="false"
         android:clickable="true"
         android:src="@drawable/ug"
         app:fabSize="normal"
+        android:contentDescription="@string/floating_action_button"
         app:layout_anchor="@id/appbar"
-        app:layout_anchorGravity="end|bottom" />
+        app:layout_anchorGravity="end|bottom"
+        android:focusable="true" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

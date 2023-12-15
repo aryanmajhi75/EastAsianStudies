@@ -89,6 +89,19 @@ public class ChinaMain extends AppCompatActivity implements NavigationView.OnNav
             case R.id.nav_about:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new About()).commit();
                 break;
+
+            case R.id.nav_fellowship:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer,new Fellowship()).commit();
+                break;
+            case R.id.nav_finAid:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new FinancialAid()).commit();
+                break;
+            case R.id.nav_univ_college:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new Universities()).commit();
+                break;
+            case R.id.nav_fundAgencies:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new FundAgencies()).commit();
+                break;
         }
 
         //closes the drawer, when an item is selected

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/aboutus"
     tools:context=".About">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -18,24 +18,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
-            app:contentScrim="@drawable/background"
             app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
             app:title="About Us"
             app:expandedTitleTextAppearance="@style/Theme.EastAsiaStudiesApplication"
             app:collapsedTitleTextAppearance="@style/Theme.EastAsiaStudiesApplication"
-            android:background="@drawable/background"
+            android:background="@drawable/aboutus"
             android:id="@+id/collapsing_toolbar_internship">
-
-            <ImageView
-                android:layout_width="254dp"
-                android:layout_height="250dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="30dp"
-                android:scaleType="centerCrop"
-                app:layout_collapseMode="parallax"
-                android:contentDescription="@string/imageview" />
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
@@ -70,10 +58,15 @@
                 android:layout_gravity="center_vertical|end"
                 android:layout_marginTop="32dp"
                 android:text="@string/aboutus"
-                android:gravity="center_horizontal"
+                android:textStyle="normal"
+                android:textAlignment="viewStart"
+                android:gravity="start"
                 android:layout_marginStart="5dp"
                 android:textColor="@color/black"
                 android:textSize="18sp"
+                android:padding="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:lineSpacingExtra="@dimen/cardview_compat_inset_shadow"
                 tools:ignore="NotSibling" />
 
 
