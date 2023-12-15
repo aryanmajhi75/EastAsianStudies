@@ -14,21 +14,21 @@
         android:layout_margin="10dp"
         android:orientation="vertical">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="?actionBarSize">
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="?actionBarSize">-->
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="5dp"
-                android:gravity="center"
-                android:text="East Asian Studies"
-                android:textAllCaps="true"
-                android:textColor="@color/black"
-                android:textSize="30sp"
-                android:textStyle="bold" />
-        </RelativeLayout>
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:gravity="center"-->
+<!--                android:text="East Asian Studies"-->
+<!--                android:textAllCaps="true"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="30sp"-->
+<!--                android:textStyle="bold" />-->
+<!--        </RelativeLayout>-->
 
         <TextView
             android:layout_width="392dp"
@@ -36,7 +36,7 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:padding="10dp"
-            android:text="Select region to explore"
+            android:text="@string/select_region_to_explore"
             android:textAllCaps="false"
             android:textColor="@color/black"
             android:textSize="24sp" />
@@ -47,29 +47,30 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             app:cardBackgroundColor="#00000000"
+            app:cardCornerRadius="20dp"
             app:cardElevation="4dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="190dp">
+                android:layout_height="190dp"
+                android:background="@drawable/chinaback1">
 
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="150dp"
+                    android:layout_height="match_parent"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:background="@drawable/chinaback1"
                     app:cardCornerRadius="35dp">
 
                     <TextView
                         android:id="@+id/chinatext"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:padding="48dp"
-                        android:text="CHINA"
+                        android:padding="40dp"
+                        android:text="@string/china"
                         android:textColor="@color/white"
                         android:textSize="24sp"
                         android:textStyle="bold" />
@@ -85,11 +86,13 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             app:cardBackgroundColor="#00000000"
+            app:cardCornerRadius="20dp"
             app:cardElevation="4dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="190dp">
+                android:layout_height="190dp"
+                android:background="@drawable/japanback">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -98,13 +101,13 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="20dp"
                     android:layout_marginBottom="20dp"
-                    android:background="@drawable/japanback">
+                    >
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="25dp"
-                        android:text="Japan"
+                        android:text="@string/japan"
                         android:textColor="@color/black"
                         android:textSize="30sp"
                         android:textStyle="bold" />
@@ -116,6 +119,7 @@
                         android:background="#00000000"
                         android:padding="20dp"
                         android:text=""
+                        android:contentDescription="@string/floating_action_button"
                         android:textColor="@color/black" />
                 </RelativeLayout>
 
@@ -129,23 +133,25 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             app:cardBackgroundColor="#00000000"
+            app:cardCornerRadius="20dp"
             app:cardElevation="4dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="190dp">
+                android:layout_height="190dp"
+                android:background="@drawable/koreaback">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:layout_margin="20dp"
-                    android:background="@drawable/koreaback">
+                    >
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="25dp"
-                        android:text="Korea"
+                        android:text="@string/korea"
                         android:textColor="@color/black"
                         android:textSize="30sp"
                         android:textStyle="bold" />
@@ -163,20 +169,21 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="190dp">
+                android:layout_height="190dp"
+                android:background="@drawable/asean">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:layout_margin="20dp"
-                    android:background="@drawable/asean">
+                    >
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="110sp"
+                        android:layout_marginStart="110sp"
                         android:padding="25dp"
-                        android:text="South East Asia"
+                        android:text="@string/south_east_asia"
                         android:textColor="@color/white"
                         android:textSize="27sp"
                         android:textStyle="bold" />
@@ -195,20 +202,21 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="190dp">
+                android:layout_height="190dp"
+                android:background="@drawable/indopacific">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:layout_margin="20dp"
-                    android:background="@drawable/indopacific">
+                    >
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="90sp"
+                        android:layout_marginStart="85sp"
                         android:padding="25dp"
-                        android:text="Indo Pacific"
+                        android:text="@string/indo_pacific"
                         android:textColor="@color/black"
                         android:textSize="27sp"
                         android:textStyle="bold" />

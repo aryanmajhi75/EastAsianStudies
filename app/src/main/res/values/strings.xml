@@ -20,4 +20,10 @@
     <string name="imageview">Imageview</string>
     <string name="floating_action_button">floating action button</string>
     <string name="textview">textview</string>
+    <string name="japan">Japan</string>
+    <string name="china">CHINA</string>
+    <string name="select_region_to_explore">Select region to explore</string>
+    <string name="korea">Korea</string>
+    <string name="south_east_asia">South East Asia</string>
+    <string name="indo_pacific">Indo Pacific</string>
 </resources>
