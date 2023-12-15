@@ -26,4 +26,6 @@
     <string name="korea">Korea</string>
     <string name="south_east_asia">South East Asia</string>
     <string name="indo_pacific">Indo Pacific</string>
+    <string name="fellowship_details">Fellowship details</string>
+    <string name="details_about_financial_aid">Details about financial aid</string>
 </resources>

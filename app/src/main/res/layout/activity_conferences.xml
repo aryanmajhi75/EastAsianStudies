@@ -18,25 +18,12 @@
             android:id="@+id/collapsing_toolbar_conference"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/background"
+            android:background="@drawable/studentconference"
             android:fitsSystemWindows="true"
             app:collapsedTitleTextAppearance="@style/Theme.EastAsiaStudiesApplication"
-            app:contentScrim="@drawable/background"
             app:expandedTitleTextAppearance="@style/Theme.EastAsiaStudiesApplication"
             app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
             app:title="Conferences">
-
-            <ImageView
-                android:layout_width="256dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="30dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/conference1"
-                app:layout_collapseMode="parallax"
-                android:contentDescription="@string/imageview" />
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"

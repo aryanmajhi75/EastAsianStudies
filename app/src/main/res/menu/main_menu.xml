@@ -20,7 +20,7 @@
             android:title="@string/exchanges" />
         <item
             android:id="@+id/nav_conferences"
-            android:icon="@drawable/conference"
+            android:icon="@drawable/studentconference"
             android:title="@string/conferences" />
         <item
             android:id="@+id/nav_internships"
