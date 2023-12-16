@@ -56,11 +56,13 @@
                 android:layout_height="match_parent"
                 android:layout_below="@id/RL1_internship"
                 android:layout_marginTop="32dp"
+                android:fontFamily="@font/noto"
+                android:text="@string/china_home_internships"
                 android:gravity="center"
                 android:layout_marginStart="25dp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
-                android:textSize="22sp"
+                android:textSize="20sp"
                 tools:ignore="NotSibling" />
 
             <TextView
@@ -70,9 +72,9 @@
                 android:layout_below="@id/RL1_internship"
                 android:layout_marginTop="32dp"
                 android:gravity="center"
-                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 tools:ignore="NotSibling" />
 
             <TextView
@@ -83,7 +85,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="25dp"
                 android:textColor="@color/black"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 tools:ignore="NotSibling" />
 
             <TextView
@@ -310,7 +312,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginLeft="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
+                android:textSize="18sp"
                 tools:ignore="NotSibling" />
             <TextView
                 android:id="@+id/textViewInternshipL10"
@@ -334,7 +336,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginLeft="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
+                android:textSize="18sp"
                 tools:ignore="NotSibling" />
             <TextView
                 android:id="@+id/textViewInternshipL11"
@@ -358,7 +360,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginLeft="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
+                android:textSize="18sp"
                 tools:ignore="NotSibling" />
             <TextView
                 android:id="@+id/textViewInternshipL12"
@@ -382,7 +384,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginLeft="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
+                android:textSize="18sp"
                 tools:ignore="NotSibling" />
             <TextView
                 android:id="@+id/textViewInternshipL13"
@@ -406,7 +408,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginLeft="25dp"
                 android:textColor="@color/black"
-                android:textSize="18dp"
+                android:textSize="18sp"
                 tools:ignore="NotSibling" />
             <TextView
                 android:id="@+id/textViewInternshipL14"

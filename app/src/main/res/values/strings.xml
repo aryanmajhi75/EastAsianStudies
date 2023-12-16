@@ -30,4 +30,22 @@
     <string name="details_about_financial_aid">Details about financial aid</string>
     <string name="details_about_universities">Details about universities</string>
     <string name="details_of_funding_agencies">Details of funding agencies</string>
+    <string name="east_asian_studies">East Asian Studies</string>
+<!--firebase data-->
+<!--China-->
+    <string name="china_home">Details about China</string>
+    <string name="china_home_conference">Home conferences screen of China</string>
+    <string name="china_home_education">Home education screen of China</string>
+    <string name="china_home_exchanges">Home exchanges screen of China</string>
+    <string name="china_home_internships">Home internship screen of China</string>
+    <string name="china_home_fellowships">Home fellowship screen of China</string>
+    <string name="china_home_scholarships">Home scholarship screen of China</string>
+    <string name="china_home_financial_aid">Home financial aid screen of China</string>
+    <string name="china_home_funding_agencies">Home funding agencies screen of China</string>
+    <string name="china_home_universities">Home universities screen of China</string>
+
+    <!--Japan-->
+<!--Korea-->
+<!--Indo-Pacific-->
+<!--South-East-Asia-->
 </resources>

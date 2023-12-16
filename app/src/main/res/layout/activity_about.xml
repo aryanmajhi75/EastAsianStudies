@@ -59,6 +59,7 @@
                 android:layout_marginTop="32dp"
                 android:text="@string/aboutus"
                 android:textStyle="normal"
+                android:fontFamily="@font/noto"
                 android:textAlignment="viewStart"
                 android:gravity="start"
                 android:layout_marginStart="5dp"

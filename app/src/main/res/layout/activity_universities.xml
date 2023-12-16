@@ -54,9 +54,11 @@
                 android:id="@+id/textViewUniversities"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/details_about_universities"
+                android:text="@string/china_home_universities"
                 android:textColor="@color/black"
-                android:textSize="16dp"/>
+                android:fontFamily="@font/noto"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

@@ -71,6 +71,8 @@
                 android:layout_marginStart="25dp"
                 android:textColor="@color/black"
                 android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/china_home_exchanges"
                 tools:ignore="NotSibling" />
 
             <TextView

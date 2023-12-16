@@ -17,16 +17,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.327"
-        app:srcCompat="@drawable/sp" />
+        app:srcCompat="@drawable/sp"
+        android:contentDescription="@string/imageview" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="340dp"
         android:layout_height="68dp"
         android:gravity="center"
-        android:text="East Asian Studies"
+        android:text="@string/east_asian_studies"
         android:textColor="@color/white"
-        android:textSize="35dp"
+        android:fontFamily="@font/noto"
+        android:textSize="35sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

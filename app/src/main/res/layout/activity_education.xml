@@ -26,17 +26,6 @@
             android:background="@drawable/education"
             android:id="@+id/collapsing_toolbar_education">
 
-<!--            <ImageView-->
-<!--                android:layout_width="206dp"-->
-<!--                android:layout_height="152dp"-->
-<!--                android:layout_gravity="center|end"-->
-<!--                android:layout_marginEnd="100dp"-->
-<!--                android:layout_marginBottom="30dp"-->
-<!--                android:scaleType="centerCrop"-->
-<!--                android:src="@drawable/education1"-->
-<!--                app:layout_collapseMode="parallax"-->
-<!--                android:contentDescription="@string/imageview" />-->
-
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
@@ -70,6 +59,7 @@
                 android:layout_below="@id/RL1"
                 android:layout_marginTop="32dp"
                 android:gravity="center"
+                android:fontFamily="@font/noto"
                 android:layout_marginStart="20dp"
                 android:textColor="@color/black"
                 android:textStyle="bold"
@@ -83,6 +73,9 @@
                 android:layout_below="@id/RL1"
                 android:layout_marginTop="32dp"
                 android:gravity="center"
+                android:text="@string/china_home_education"
+                android:fontFamily="@font/noto"
+                android:textStyle="bold"
                 android:layout_marginStart="20dp"
                 android:textColor="@color/black"
                 android:textSize="20sp"
@@ -97,6 +90,7 @@
                 android:layout_marginStart="20dp"
                 android:textColor="@color/black"
                 android:textSize="20sp"
+                android:fontFamily="@font/noto"
                 tools:ignore="NotSibling" />
 
             <TextView
@@ -108,6 +102,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginStart="20dp"
                 android:autoLink="web"
+                android:fontFamily="@font/noto"
                 android:textColor="@color/black"
                 android:clickable="true"
                 android:textSize="18sp"
@@ -123,6 +118,7 @@
                 android:layout_marginStart="20dp"
                 android:textColor="@color/black"
                 android:textSize="20sp"
+                android:fontFamily="@font/noto"
                 tools:ignore="NotSibling" />
 
             <TextView
@@ -137,6 +133,7 @@
                 android:layout_marginStart="20dp"
                 android:textColor="@color/black"
                 android:textSize="18sp"
+                android:fontFamily="@font/noto"
                 tools:ignore="NotSibling"
                 android:focusable="true" />
 
@@ -149,6 +146,7 @@
                 android:layout_marginStart="20dp"
                 android:textColor="@color/black"
                 android:textSize="20sp"
+                android:fontFamily="@font/noto"
                 tools:ignore="NotSibling" />
             <TextView
                 android:id="@+id/textViewEducationL3"
@@ -160,6 +158,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginStart="20dp"
                 android:autoLink="web"
+                android:fontFamily="@font/noto"
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 tools:ignore="NotSibling"
@@ -175,6 +174,7 @@
                 android:layout_marginStart="20dp"
                 android:textColor="@color/black"
                 android:textSize="20sp"
+                android:fontFamily="@font/noto"
                 tools:ignore="NotSibling" />
             <TextView
                 android:id="@+id/textViewEducationL4"
@@ -185,6 +185,7 @@
                 android:contentDescription="@string/textview"
                 android:layout_marginTop="5dp"
                 android:clickable="true"
+                android:fontFamily="@font/noto"
                 android:layout_marginStart="25dp"
                 android:textColor="@color/black"
                 android:textSize="18sp"
@@ -200,6 +201,7 @@
                 android:layout_marginStart="25dp"
                 android:textColor="@color/black"
                 android:textSize="20sp"
+                android:fontFamily="@font/noto"
                 tools:ignore="NotSibling" />
             <TextView
                 android:id="@+id/textViewEducationL5"
@@ -213,6 +215,7 @@
                 android:layout_marginStart="25dp"
                 android:textColor="@color/black"
                 android:textSize="18sp"
+                android:fontFamily="@font/noto"
                 tools:ignore="NotSibling"
                 android:focusable="true" />
             <TextView
@@ -227,6 +230,7 @@
                 android:layout_marginStart="25dp"
                 android:textColor="@color/black"
                 android:textSize="18sp"
+                android:fontFamily="@font/noto"
                 tools:ignore="NotSibling"
                 android:focusable="true" />
             <TextView
@@ -240,6 +244,7 @@
                 android:layout_marginStart="25dp"
                 android:textColor="@color/black"
                 android:textSize="18sp"
+                android:fontFamily="@font/noto"
                 tools:ignore="NotSibling"
                 android:focusable="true" />
             <TextView
@@ -253,6 +258,7 @@
                 android:layout_marginStart="25dp"
                 android:textColor="@color/black"
                 android:textSize="18sp"
+                android:fontFamily="@font/noto"
                 tools:ignore="NotSibling"
                 android:focusable="true" />
             <TextView
@@ -266,6 +272,7 @@
                 android:layout_marginStart="25dp"
                 android:textColor="@color/black"
                 android:textSize="18sp"
+                android:fontFamily="@font/noto"
                 tools:ignore="NotSibling"
                 android:focusable="true" />
             <TextView
@@ -279,6 +286,7 @@
                 android:layout_marginStart="25dp"
                 android:textColor="@color/black"
                 android:textSize="18sp"
+                android:fontFamily="@font/noto"
                 tools:ignore="NotSibling"
                 android:focusable="true" />
             <TextView
@@ -292,6 +300,7 @@
                 android:layout_marginStart="25dp"
                 android:textColor="@color/black"
                 android:textSize="18sp"
+                android:fontFamily="@font/noto"
                 tools:ignore="NotSibling"
                 android:focusable="true" />
             <TextView
@@ -305,6 +314,7 @@
                 android:layout_marginStart="25dp"
                 android:textColor="@color/black"
                 android:textSize="18sp"
+                android:fontFamily="@font/noto"
                 tools:ignore="NotSibling"
                 android:focusable="true" />
             <TextView
@@ -318,6 +328,7 @@
                 android:layout_marginStart="25dp"
                 android:textColor="@color/black"
                 android:textSize="18sp"
+                android:fontFamily="@font/noto"
                 tools:ignore="NotSibling"
                 android:focusable="true" />
             <TextView
@@ -329,6 +340,7 @@
                 android:clickable="true"
                 android:layout_marginTop="5dp"
                 android:layout_marginStart="25dp"
+                android:fontFamily="@font/noto"
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 tools:ignore="NotSibling"
@@ -339,6 +351,7 @@
                 android:layout_height="match_parent"
                 android:layout_below="@id/textViewEducationH10"
                 android:autoLink="web"
+                android:fontFamily="@font/noto"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
                 android:layout_marginStart="25dp"
@@ -352,6 +365,7 @@
                 android:layout_height="match_parent"
                 android:layout_below="@id/textViewEducationL10"
                 android:autoLink="web"
+                android:fontFamily="@font/noto"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
                 android:layout_marginStart="25dp"
@@ -366,6 +380,7 @@
                 android:layout_below="@id/textViewEducationH11"
                 android:autoLink="web"
                 android:clickable="true"
+                android:fontFamily="@font/noto"
                 android:layout_marginTop="5dp"
                 android:layout_marginStart="25dp"
                 android:textColor="@color/black"
@@ -383,6 +398,7 @@
                 android:layout_marginStart="25dp"
                 android:textColor="@color/black"
                 android:textSize="18sp"
+                android:fontFamily="@font/noto"
                 tools:ignore="NotSibling"
                 android:focusable="true" />
             <TextView
@@ -395,6 +411,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginStart="25dp"
                 android:textColor="@color/black"
+                android:fontFamily="@font/noto"
                 android:textSize="18sp"
                 tools:ignore="NotSibling"
                 android:focusable="true" />
@@ -408,6 +425,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginStart="25dp"
                 android:textColor="@color/black"
+                android:fontFamily="@font/noto"
                 android:textSize="18sp"
                 tools:ignore="NotSibling"
                 android:focusable="true" />
@@ -417,6 +435,7 @@
                 android:layout_height="match_parent"
                 android:layout_below="@id/textViewEducationH13"
                 android:autoLink="web"
+                android:fontFamily="@font/noto"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
                 android:layout_marginStart="25dp"
@@ -434,6 +453,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginStart="25dp"
                 android:textColor="@color/black"
+                android:fontFamily="@font/noto"
                 android:textSize="18sp"
                 tools:ignore="NotSibling"
                 android:focusable="true" />
@@ -446,6 +466,7 @@
                 android:clickable="true"
                 android:layout_marginTop="5dp"
                 android:layout_marginStart="25dp"
+                android:fontFamily="@font/noto"
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 tools:ignore="NotSibling"
@@ -460,6 +481,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginStart="25dp"
                 android:textColor="@color/black"
+                android:fontFamily="@font/noto"
                 android:textSize="18sp"
                 tools:ignore="NotSibling"
                 android:focusable="true" />
@@ -473,6 +495,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginStart="25dp"
                 android:textColor="@color/black"
+                android:fontFamily="@font/noto"
                 android:textSize="18sp"
                 tools:ignore="NotSibling"
                 android:focusable="true" />
@@ -482,6 +505,7 @@
                 android:layout_height="match_parent"
                 android:layout_below="@id/textViewEducationL15"
                 android:autoLink="web"
+                android:fontFamily="@font/noto"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
                 android:layout_marginStart="25dp"
@@ -495,6 +519,7 @@
                 android:layout_height="match_parent"
                 android:layout_below="@id/textViewEducationH16"
                 android:autoLink="web"
+                android:fontFamily="@font/noto"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
                 android:layout_marginStart="25dp"
@@ -508,6 +533,7 @@
                 android:layout_height="match_parent"
                 android:layout_below="@id/textViewEducationL16"
                 android:autoLink="web"
+                android:fontFamily="@font/noto"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
                 android:layout_marginStart="25dp"
@@ -521,6 +547,7 @@
                 android:layout_height="match_parent"
                 android:layout_below="@id/textViewEducationH17"
                 android:autoLink="web"
+                android:fontFamily="@font/noto"
                 android:clickable="true"
                 android:layout_marginTop="5dp"
                 android:layout_marginStart="25dp"
