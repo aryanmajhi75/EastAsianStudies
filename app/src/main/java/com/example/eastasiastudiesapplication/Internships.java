@@ -105,25 +105,33 @@ public class Internships extends Fragment {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         if (snapshot.exists()) {
+
+                            h1.setText("⚫ Intern Abroad HQ");
+                            l1.setText("https://www.internhq.com?filter=Post%20Graduate%20/");
+                            h2.setText("⚫ Remote.co");
+                            l2.setText("https://workremoteco.com/remote-jobs?filter=Post%20Graduate%20/");
+                            h3.setText("⚫ FlexJobs");
+                            l3.setText("https://www.flexjobs.com/remote-jobs?filter=Post%20Graduate%20/");
+                            h4.setText("⚫ LinkedIn");
+                            l4.setText("https://www.linkedin.com?filter=Post%20Graduate%20/");
+
                             t2.setText("Upcoming UG Internships");
                             t1.setText("");
 
-                            String data = snapshot.child("head1").getValue().toString();
-                            h1.setText("⚫ "+data);
-                            String data1 = snapshot.child("link1").getValue().toString();
-                            l1.setText(data1);
-
-                            String data3 = snapshot.child("head2").getValue().toString();
-                            h2.setText("⚫ "+data3);
-                            l2.setText(snapshot.child("link2").getValue().toString());
-
-                            String data4 = snapshot.child("head3").getValue().toString();
-                            h3.setText("⚫ "+data4);
-                            l3.setText(snapshot.child("link3").getValue().toString());
-
-                            String data5 = snapshot.child("head4").getValue().toString();
-                            h4.setText("⚫ "+data5);
-                            l4.setText(snapshot.child("link4").getValue().toString());
+//                            String data = snapshot.child("head1").getValue().toString();
+//                            h1.setText("⚫ "+data);
+//                            String data1 = snapshot.child("link1").getValue().toString();
+//                            l1.setText(data1);
+//                            String data3 = snapshot.child("head2").getValue().toString();
+//                            h2.setText("⚫ "+data3);
+//                            l2.setText(snapshot.child("link2").getValue().toString());
+//                            String data4 = snapshot.child("head3").getValue().toString();
+//                            h3.setText("⚫ "+data4);
+//                            l3.setText(snapshot.child("link3").getValue().toString());
+//
+//                            String data5 = snapshot.child("head4").getValue().toString();
+//                            h4.setText("⚫ "+data5);
+//                            l4.setText(snapshot.child("link4").getValue().toString());
 
                             String data6 = snapshot.child("head5").getValue().toString();
                             h5.setText("⚫ "+data6);
@@ -229,25 +237,34 @@ public class Internships extends Fragment {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         if (snapshot.exists()) {
+                            h1.setText("⚫ Intern Abroad HQ");
+                            l1.setText("https://www.internhq.com?filter=Post%20Graduate%20/");
+                            h2.setText("⚫ Remote.co");
+                            l2.setText("https://workremoteco.com/remote-jobs/?filter=Post%20Graduate%20/");
+                            h3.setText("⚫ FlexJobs");
+                            l3.setText("https://www.flexjobs.com/remote-jobs?filter=Post%20Graduate%20/");
+                            h4.setText("⚫ LinkedIn");
+                            l4.setText("https://www.linkedin.com/?filter=Post%20Graduate%20/");
+
                             t2.setText("Upcoming PG Internships");
                             t1.setText("");
 
-                            String data = snapshot.child("head1").getValue().toString();
-                            h1.setText("⚫ "+data);
-                            String data1 = snapshot.child("link1").getValue().toString();
-                            l1.setText(data1);
-
-                            String data3 = snapshot.child("head2").getValue().toString();
-                            h2.setText("⚫ "+data3);
-                            l2.setText(snapshot.child("link2").getValue().toString());
-
-                            String data4 = snapshot.child("head3").getValue().toString();
-                            h3.setText("⚫ "+data4);
-                            l3.setText(snapshot.child("link3").getValue().toString());
-
-                            String data5 = snapshot.child("head4").getValue().toString();
-                            h4.setText("⚫ "+data5);
-                            l4.setText(snapshot.child("link4").getValue().toString());
+//                            String data = snapshot.child("head1").getValue().toString();
+//                            h1.setText("⚫ "+data);
+//                            String data1 = snapshot.child("link1").getValue().toString();
+//                            l1.setText(data1);
+//
+//                            String data3 = snapshot.child("head2").getValue().toString();
+//                            h2.setText("⚫ "+data3);
+//                            l2.setText(snapshot.child("link2").getValue().toString());
+//
+//                            String data4 = snapshot.child("head3").getValue().toString();
+//                            h3.setText("⚫ "+data4);
+//                            l3.setText(snapshot.child("link3").getValue().toString());
+//
+//                            String data5 = snapshot.child("head4").getValue().toString();
+//                            h4.setText("⚫ "+data5);
+//                            l4.setText(snapshot.child("link4").getValue().toString());
 
                             String data6 = snapshot.child("head5").getValue().toString();
                             h5.setText("⚫ "+data6);
@@ -353,29 +370,41 @@ public class Internships extends Fragment {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         if (snapshot.exists()) {
+
+                            h1.setText("⚫ Intern Abroad HQ");
+                            l1.setText("https://www.internhq.com?filter=PHD%20/");
+                            h2.setText("⚫ Remote.co");
+                            l2.setText("https://workremoteco.com/remote-jobs/?filter=PHD%20/");
+                            h3.setText("⚫ FlexJobs");
+                            l3.setText("https://www.flexjobs.com/remote-jobs?filter=PHD%20/");
+                            h4.setText("⚫ LinkedIn");
+                            l4.setText("https://www.linkedin.com/?filter=PHD%20/");
+                            h5.setText("⚫ Automattic");
+                            l5.setText("https://wordpress.com/careers?filter=PHD%20/");
+
                             t2.setText("Upcoming PhD Internships");
                             t1.setText("");
 
-                            String data = snapshot.child("head1").getValue().toString();
-                            h1.setText("⚫ "+data);
-                            String data1 = snapshot.child("link1").getValue().toString();
-                            l1.setText(data1);
+//                            String data = snapshot.child("head1").getValue().toString();
+//                            h1.setText("⚫ "+data);
+//                            String data1 = snapshot.child("link1").getValue().toString();
+//                            l1.setText(data1);
+//
+//                            String data3 = snapshot.child("head2").getValue().toString();
+//                            h2.setText("⚫ "+data3);
+//                            l2.setText(snapshot.child("link2").getValue().toString());
+//
+//                            String data4 = snapshot.child("head3").getValue().toString();
+//                            h3.setText("⚫ "+data4);
+//                            l3.setText(snapshot.child("link3").getValue().toString());
+//
+//                            String data5 = snapshot.child("head4").getValue().toString();
+//                            h4.setText("⚫ "+data5);
+//                            l4.setText(snapshot.child("link4").getValue().toString());
 
-                            String data3 = snapshot.child("head2").getValue().toString();
-                            h2.setText("⚫ "+data3);
-                            l2.setText(snapshot.child("link2").getValue().toString());
-
-                            String data4 = snapshot.child("head3").getValue().toString();
-                            h3.setText("⚫ "+data4);
-                            l3.setText(snapshot.child("link3").getValue().toString());
-
-                            String data5 = snapshot.child("head4").getValue().toString();
-                            h4.setText("⚫ "+data5);
-                            l4.setText(snapshot.child("link4").getValue().toString());
-
-                            String data6 = snapshot.child("head5").getValue().toString();
-                            h5.setText("⚫ "+data6);
-                            l5.setText(snapshot.child("link5").getValue().toString());
+//                            String data6 = snapshot.child("head5").getValue().toString();
+//                            h5.setText("⚫ "+data6);
+//                            l5.setText(snapshot.child("link5").getValue().toString());
 
                             String data7 = snapshot.child("head6").getValue().toString();
                             h6.setText("⚫ "+data7);

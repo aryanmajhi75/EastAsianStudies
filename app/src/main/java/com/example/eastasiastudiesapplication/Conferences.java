@@ -104,25 +104,35 @@ public class Conferences extends Fragment {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
                             if (snapshot.exists()) {
+
+                                h1.setText("⚫ MIT");
+                                l1.setText("https://ocw.mit.edu/?filter=Under%20Graduate%20/");
+                                h2.setText("⚫ Stanford");
+                                l2.setText("https://online.stanford.edu/?filter=Under%20Graduate%20/");
+                                h3.setText("⚫ Nanotechnology");
+                                l3.setText("https://www.nano.gov?filter=Under%20Graduate%20/");
+                                h4.setText("⚫ Earth and Space Sciences");
+                                l4.setText("https://www.agu.org?filter=Under%20Graduate%20/");
+
                                 t2.setText("Upcoming UG Conferences");
                                 t1.setText("");
 
-                                String data = snapshot.child("head1").getValue().toString();
-                                h1.setText("⚫ "+data);
-                                String data1 = snapshot.child("link1").getValue().toString();
-                                l1.setText(data1);
-
-                                String data3 = snapshot.child("head2").getValue().toString();
-                                h2.setText("⚫ "+data3);
-                                l2.setText(snapshot.child("link2").getValue().toString());
-
-                                String data4 = snapshot.child("head3").getValue().toString();
-                                h3.setText("⚫ "+data4);
-                                l3.setText(snapshot.child("link3").getValue().toString());
-
-                                String data5 = snapshot.child("head4").getValue().toString();
-                                h4.setText("⚫ "+data5);
-                                l4.setText(snapshot.child("link4").getValue().toString());
+//                                String data = snapshot.child("head1").getValue().toString();
+//                                h1.setText("⚫ "+data);
+//                                String data1 = snapshot.child("link1").getValue().toString();
+//                                l1.setText(data1);
+//
+//                                String data3 = snapshot.child("head2").getValue().toString();
+//                                h2.setText("⚫ "+data3);
+//                                l2.setText(snapshot.child("link2").getValue().toString());
+//
+//                                String data4 = snapshot.child("head3").getValue().toString();
+//                                h3.setText("⚫ "+data4);
+//                                l3.setText(snapshot.child("link3").getValue().toString());
+//
+//                                String data5 = snapshot.child("head4").getValue().toString();
+//                                h4.setText("⚫ "+data5);
+//                                l4.setText(snapshot.child("link4").getValue().toString());
 
                                 String data6 = snapshot.child("head5").getValue().toString();
                                 h5.setText("⚫ "+data6);
@@ -227,25 +237,35 @@ public class Conferences extends Fragment {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         if (snapshot.exists()) {
+
+                            h1.setText("⚫ MIT");
+                            l1.setText("https://ocw.mit.edu/?filter=Post%20Graduate%20/");
+                            h2.setText("⚫ Stanford");
+                            l2.setText("https://online.stanford.edu/?filter=Post%20Graduate%20/");
+                            h3.setText("⚫ Nanotechnology");
+                            l3.setText("https://www.nano.gov?filter=Post%20Graduate%20/");
+                            h4.setText("⚫ Earth and Space Sciences");
+                            l4.setText("https://www.agu.org?filter=Post%20Graduate%20/");
+
                             t2.setText("Upcoming PG Conferences");
                             t1.setText("");
 
-                            String data = snapshot.child("head1").getValue().toString();
-                            h1.setText("⚫ "+data);
-                            String data1 = snapshot.child("link1").getValue().toString();
-                            l1.setText(data1);
+//                            String data = snapshot.child("head1").getValue().toString();
+//                            h1.setText("⚫ "+data);
+//                            String data1 = snapshot.child("link1").getValue().toString();
+//                            l1.setText(data1);
+//
+//                            String data3 = snapshot.child("head2").getValue().toString();
+//                            h2.setText("⚫ "+data3);
+//                            l2.setText(snapshot.child("link2").getValue().toString());
+//
+//                            String data4 = snapshot.child("head3").getValue().toString();
+//                            h3.setText("⚫ "+data4);
+//                            l3.setText(snapshot.child("link3").getValue().toString());
 
-                            String data3 = snapshot.child("head2").getValue().toString();
-                            h2.setText("⚫ "+data3);
-                            l2.setText(snapshot.child("link2").getValue().toString());
-
-                            String data4 = snapshot.child("head3").getValue().toString();
-                            h3.setText("⚫ "+data4);
-                            l3.setText(snapshot.child("link3").getValue().toString());
-
-                            String data5 = snapshot.child("head4").getValue().toString();
-                            h4.setText("⚫ "+data5);
-                            l4.setText(snapshot.child("link4").getValue().toString());
+//                            String data5 = snapshot.child("head4").getValue().toString();
+//                            h4.setText("⚫ "+data5);
+//                            l4.setText(snapshot.child("link4").getValue().toString());
 
                             String data6 = snapshot.child("head5").getValue().toString();
                             h5.setText("⚫ "+data6);
@@ -353,25 +373,35 @@ public class Conferences extends Fragment {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         if (snapshot.exists()) {
+
+                            h1.setText("⚫ Research Hub");
+                            l1.setText("https://www.researchhub.com?filter=PHD%20/");
+                            h2.setText("⚫ Research Cafes");
+                            l2.setText("https://www.youtube.com/c/PhDCoffeeTime");
+                            h3.setText("⚫ Nanotechnology");
+                            l3.setText("https://www.nano.gov?filter=PHD%20/");
+                            h4.setText("⚫ Earth and Space Sciences");
+                            l4.setText("https://www.agu.org?filter=PHD%20/");
+
                             t2.setText("Upcoming PhD Conferences");
                             t1.setText("");
 
                             String data = snapshot.child("head1").getValue().toString();
-                            h1.setText("⚫ "+data);
+//                            h1.setText("⚫ "+data);
                             String data1 = snapshot.child("link1").getValue().toString();
-                            l1.setText(data1);
+//                            l1.setText(data1);
 
                             String data3 = snapshot.child("head2").getValue().toString();
-                            h2.setText("⚫ "+data3);
-                            l2.setText(snapshot.child("link2").getValue().toString());
+//                            h2.setText("⚫ "+data3);
+//                            l2.setText(snapshot.child("link2").getValue().toString());
 
                             String data4 = snapshot.child("head3").getValue().toString();
-                            h3.setText("⚫ "+data4);
-                            l3.setText(snapshot.child("link3").getValue().toString());
+//                            h3.setText("⚫ "+data4);
+//                            l3.setText(snapshot.child("link3").getValue().toString());
 
                             String data5 = snapshot.child("head4").getValue().toString();
-                            h4.setText("⚫ "+data5);
-                            l4.setText(snapshot.child("link4").getValue().toString());
+//                            h4.setText("⚫ "+data5);
+//                            l4.setText(snapshot.child("link4").getValue().toString());
 
 
 

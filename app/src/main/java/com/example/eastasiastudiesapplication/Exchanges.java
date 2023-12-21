@@ -105,25 +105,35 @@ public class Exchanges extends Fragment {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         if (snapshot.exists()) {
+
+                            h1.setText("⚫ National University of Singapore (NUS) Exchange Program");
+                            l1.setText("https://www.nus.edu.sg/gro/global-programmes/summer-and-winter-programmes/summer-programmes-at-nus");
+                            h2.setText("⚫ University of Hong Kong - Undergraduate Summer School in International Business & Finance");
+                            l2.setText("https://summerinstitute.hku.hk/");
+                            h3.setText("⚫ Kyoto University - Global Leadership Program");
+                            l3.setText("https://www.kyodai-collaborative.org/programs/");
+                            h4.setText("⚫ Yonsei University - International Summer School in Korean Studies");
+                            l4.setText("https://muic.mahidol.ac.th/eng/study-abroad/short-term-programs/muic-summer-program/");
+
                             t2.setText("Upcoming UG Exchanges");
                             tt.setText("");
 
                             String data = snapshot.child("head1").getValue().toString();
-                            h1.setText("⚫ "+data);
+//                            h1.setText("⚫ "+data);
                             String data1 = snapshot.child("link1").getValue().toString();
-                            l1.setText(data1);
+//                            l1.setText(data1);
 
                             String data3 = snapshot.child("head2").getValue().toString();
-                            h2.setText("⚫ "+data3);
-                            l2.setText(snapshot.child("link2").getValue().toString());
+//                            h2.setText("⚫ "+data3);
+//                            l2.setText(snapshot.child("link2").getValue().toString());
 
                             String data4 = snapshot.child("head3").getValue().toString();
-                            h3.setText("⚫ "+data4);
-                            l3.setText(snapshot.child("link3").getValue().toString());
+//                            h3.setText("⚫ "+data4);
+//                            l3.setText(snapshot.child("link3").getValue().toString());
 
                             String data5 = snapshot.child("head4").getValue().toString();
-                            h4.setText("⚫ "+data5);
-                            l4.setText(snapshot.child("link4").getValue().toString());
+//                            h4.setText("⚫ "+data5);
+//                            l4.setText(snapshot.child("link4").getValue().toString());
 
                             String data6 = snapshot.child("head5").getValue().toString();
                             h5.setText("⚫ "+data6);
@@ -229,25 +239,35 @@ public class Exchanges extends Fragment {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         if (snapshot.exists()) {
+
+                            h1.setText("⚫ National University of Singapore (NUS) Exchange Program");
+                            l1.setText("https://www.nus.edu.sg/gro/global-programmes/summer-and-winter-programmes/summer-programmes-at-nus");
+                            h2.setText("⚫ University of Hong Kong - Undergraduate Summer School in International Business & Finance");
+                            l2.setText("https://summerinstitute.hku.hk/");
+                            h3.setText("⚫ Kyoto University - Global Leadership Program");
+                            l3.setText("https://www.kyodai-collaborative.org/programs/");
+                            h4.setText("⚫ Yonsei University - International Summer School in Korean Studies");
+                            l4.setText("https://muic.mahidol.ac.th/eng/study-abroad/short-term-programs/muic-summer-program/");
+
                             t2.setText("Upcoming PG Exchanges");
                             tt.setText("");
 
                             String data = snapshot.child("head1").getValue().toString();
-                            h1.setText("⚫ "+data);
+//                            h1.setText("⚫ "+data);
                             String data1 = snapshot.child("link1").getValue().toString();
-                            l1.setText(data1);
+//                            l1.setText(data1);
 
                             String data3 = snapshot.child("head2").getValue().toString();
-                            h2.setText("⚫ "+data3);
-                            l2.setText(snapshot.child("link2").getValue().toString());
+//                            h2.setText("⚫ "+data3);
+//                            l2.setText(snapshot.child("link2").getValue().toString());
 
                             String data4 = snapshot.child("head3").getValue().toString();
-                            h3.setText("⚫ "+data4);
-                            l3.setText(snapshot.child("link3").getValue().toString());
+//                            h3.setText("⚫ "+data4);
+//                            l3.setText(snapshot.child("link3").getValue().toString());
 
                             String data5 = snapshot.child("head4").getValue().toString();
-                            h4.setText("⚫ "+data5);
-                            l4.setText(snapshot.child("link4").getValue().toString());
+//                            h4.setText("⚫ "+data5);
+//                            l4.setText(snapshot.child("link4").getValue().toString());
 
                             String data6 = snapshot.child("head5").getValue().toString();
                             h5.setText("⚫ "+data6);
@@ -353,25 +373,35 @@ public class Exchanges extends Fragment {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         if (snapshot.exists()) {
+
+                            h1.setText("⚫ National University of Singapore (NUS) Exchange Program");
+                            l1.setText("https://www.nus.edu.sg/gro/global-programmes/summer-and-winter-programmes/summer-programmes-at-nus");
+                            h2.setText("⚫ University of Hong Kong - Undergraduate Summer School in International Business & Finance");
+                            l2.setText("https://summerinstitute.hku.hk/");
+                            h3.setText("⚫ Kyoto University - Global Leadership Program");
+                            l3.setText("https://www.kyodai-collaborative.org/programs/");
+                            h4.setText("⚫ Yonsei University - International Summer School in Korean Studies");
+                            l4.setText("https://muic.mahidol.ac.th/eng/study-abroad/short-term-programs/muic-summer-program/");
+
                             t2.setText("Upcoming PhD Exchanges");
                             tt.setText("");
 
                             String data = snapshot.child("head1").getValue().toString();
-                            h1.setText("⚫ "+data);
+//                            h1.setText("⚫ "+data);
                             String data1 = snapshot.child("link1").getValue().toString();
-                            l1.setText(data1);
+//                            l1.setText(data1);
 
                             String data3 = snapshot.child("head2").getValue().toString();
-                            h2.setText("⚫ "+data3);
-                            l2.setText(snapshot.child("link2").getValue().toString());
+//                            h2.setText("⚫ "+data3);
+//                            l2.setText(snapshot.child("link2").getValue().toString());
 
                             String data4 = snapshot.child("head3").getValue().toString();
-                            h3.setText("⚫ "+data4);
-                            l3.setText(snapshot.child("link3").getValue().toString());
+//                            h3.setText("⚫ "+data4);
+//                            l3.setText(snapshot.child("link3").getValue().toString());
 
                             String data5 = snapshot.child("head4").getValue().toString();
-                            h4.setText("⚫ "+data5);
-                            l4.setText(snapshot.child("link4").getValue().toString());
+//                            h4.setText("⚫ "+data5);
+//                            l4.setText(snapshot.child("link4").getValue().toString());
 
                             String data6 = snapshot.child("head5").getValue().toString();
                             h5.setText("⚫ "+data6);

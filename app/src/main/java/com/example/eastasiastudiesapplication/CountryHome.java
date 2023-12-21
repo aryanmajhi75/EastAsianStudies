@@ -30,7 +30,7 @@ import com.google.firebase.database.ValueEventListener;
 public class CountryHome extends Fragment {
 
     private DatabaseReference countryRef,countryRef1,cCountryRef;
-    TextView t1;
+    TextView t1,t2;
     CollapsingToolbarLayout ctl;
     FloatingActionButton i1;
     static String country,name1,home1;
@@ -48,7 +48,7 @@ public class CountryHome extends Fragment {
             public void onChanged(@Nullable String data) {
                 // update UI with the new data
                 country = data;
-                Toast.makeText(getActivity().getApplicationContext(), "onStart", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity().getApplicationContext(), "China Home", Toast.LENGTH_SHORT).show();
 
                 if(country == "China"){
                     countryRef = FirebaseDatabase.getInstance().getReference().child("Countries").child("China");
@@ -58,6 +58,7 @@ public class CountryHome extends Fragment {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
                             if (snapshot.exists()) {
+
                                 String name = snapshot.child("name").getValue().toString();
                                 name1 = name;
                                 ctl.setTitle(name);
